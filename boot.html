@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color:#1abc9c;
+      padding: 25px;
+    }
+
+    .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      min-height: 200px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none;
+      }
+    }
+	
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="jealous.gif">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="me.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="ilove.html"><span class="glyphicon glyphicon-log-in"></span> I love computer Science</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+<div class="row">
+  <div class="col-sm-8">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="GWC.png" alt="Image">
+          <div class="carousel-caption">
+            
+            <p>I love computer science</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="jel.gif" alt="Image"  >
+          
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="well">
+       <img src="ep.gif" alt="Image">
+    </div>
+
+    <div class="well">
+       <img src="ep.gif" alt="Image">
+    </div>
+
+    <div class="well">
+       <img src="ep.gif" alt="Image">
+    </div>
+ <div class="well">
+       <img src="ep.gif" alt="Image">
+    </div>
+  
+    
+  </div>
+</div>
+<hr>
+</div>
+
+<div class="container text-center">
+  <h3>What I Do</h3>
+  <br>
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="og.png" class="img-responsive" style="width:500px; height:190px" alt="Image">
+      <p>Web Development</p>
+    </div>
+    <div class="col-sm-3">
+      <img src="trapLit.jpg" class="img-responsive" style="width:500px; height:190px " alt="Image">
+      <p>Robotics</p>
+    </div>
+    <div class="col-sm-3">
+      <div class="well">
+       <p>I code</p>
+      </div>
+      <div class="well">
+       <p>I make websites </p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="well">
+       <p>I make games</p>
+      </div>
+      <div class="well">
+       <p>I love computer science </p>
+      </div>
+    </div>
+  </div>
+  <hr>
+</div>
+
+<div class="container text-center">
+  <h3>My Partners</h3>
+  <br>
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="drake-hotline-bling-00.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Drake</p>
+    </div>
+    <div class="col-sm-2">
+      <img src="crying.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Drake's Twin</p>
+    </div>
+    <div class="col-sm-2">
+      <img src="native.png" class="img-responsive" style="width:100%" alt="Image">
+      <p>Native Foods</p>
+    </div>
+    <div class="col-sm-2">
+      <img src="MIGUEL.gif" class="img-responsive" style="width:290px; height:100px " alt="Image">
+      <p>Miguel</p>
+    </div>
+   <div class="col-sm-2">
+      <img src="cpp.png" class="img-responsive" style=" width:150px; height:100px " alt="Image">
+      <p>Copy and Paste</p>
+    </div>
+    <div class="col-sm-2">
+      <img src="dwight.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Dwight</p>
+    </div>
+  </div>
+</div><br>
+
+<div class="container text-center">
+  <h3>My Haters</h3>
+  <br>
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="am.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Amulya</p>
+    </div>
+    <div class="col-sm-2">
+      <img src="co.png" class="img-responsive" style="width:100%" alt="Image">
+      <p>The Coder</p>
+    </div>
+    <div class="col-sm-2">
+      <img src="pat.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p>Pat</p>
+    </div>
+    <div class="col-sm-2">
+      <img src="crying.jpg" class="img-responsive" style="width:290px; height:100px " alt="Image">
+      <p>Drake's Twin</p>
+    </div>
+   <div class="col-sm-2">
+      <img src="pepe.jpg" class="img-responsive" style=" width:110px; height:100px " alt="Image">
+      <p>Brianna</p>
+    </div>
+    <div class="col-sm-2">
+      <img src="ma.png" class="img-responsive" style="width:100%" alt="Image">
+      <p>Mackenzie</p>
+    </div>
+  </div>
+</div><br>
+
+
+<footer class="container-fluid text-center">
+  <p>I love computer science</p>
+</footer>
+
+</body>
+</html>
+
